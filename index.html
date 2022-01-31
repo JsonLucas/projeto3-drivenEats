@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <title>DrivenEats</title>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='initial-scale=1'>
+        <link rel='shortcut icon' href='images/icon.png'>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <header class='header'>
+            <div class='container-slogan'>
+                <div class='slogan'>
+                    <div class='main-name'>DrivenEats</div>
+                    <div class='sub-name'>Sua comida em 6 minutos</div>
+                </div>
+            </div>
+        </header>
+        <div class='container-body'>
+            <div class='container-dish-options' data-identifier='dishes'>
+                <div class='section-subtitle'>Pirmeiro, seu prato</div>
+                <div class='dish-options'>
+                    <div class='single-dish' id='dish-1' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sanduiche.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dish-name' data-identifier='food-title'>Dish 1</div>
+                            <div class='option-dish-description'>description</div>
+                            <div class='option-dish-value' data-identifier='food-price'>R$ <span>19,29</span></div>
+                            <div class='check-dish-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dish' id='dish-2' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sanduiche.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dish-name' data-identifier='food-title'>Dish 2</div>
+                            <div class='option-dish-description'>description</div>
+                            <div class='option-dish-value' data-identifier='food-price'>R$ <span>29,49</span></div>
+                            <div class='check-dish-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dish' id='dish-3' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sanduiche.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dish-name' data-identifier='food-title'>Dish 3</div>
+                            <div class='option-dish-description'>description</div>
+                            <div class='option-dish-value' data-identifier='food-price'>R$ <span>39,69</span></div>
+                            <div class='check-dish-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dish' id='dish-4' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sanduiche.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dish-name' data-identifier='food-title'>Dish 4</div>
+                            <div class='option-dish-description'>description</div>
+                            <div class='option-dish-value' data-identifier='food-price'>R$ <span>49,89</span></div>
+                            <div class='check-dish-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dish' id='dish-5' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sanduiche.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dish-name' data-identifier='food-title'>Dish 5</div>
+                            <div class='option-dish-description'>description</div>
+                            <div class='option-dish-value' data-identifier='food-price'>R$ <span>59,99</span></div>
+                            <div class='check-dish-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class='container-drink-options' data-identifier='drinks'>
+                <div class='section-subtitle'>Agora, sua bebida</div>
+                <div class='drink-options'>
+                    <div class='single-drink' id='drink-1' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sprito.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-drink-name' data-identifier='food-title'>Drink 1</div>
+                            <div class='option-drink-description'>description</div>
+                            <div class='option-drink-value' data-identifier='food-price'>R$ <span>19,19</span></div>
+                            <div class='check-drink-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-drink' id='drink-2' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sprito.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-drink-name' data-identifier='food-title'>Drink 2</div>
+                            <div class='option-drink-description'>description</div>
+                            <div class='option-drink-value' data-identifier='food-price'>R$ <span>29,39</span></div>
+                            <div class='check-drink-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-drink' id='drink-3' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sprito.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-drink-name' data-identifier='food-title'>Drink 3</div>
+                            <div class='option-drink-description'>description</div>
+                            <div class='option-drink-value' data-identifier='food-price'>R$ <span>39,59</span></div>
+                            <div class='check-drink-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-drink' id='drink-4' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sprito.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-drink-name' data-identifier='food-title'>Drink 4</div>
+                            <div class='option-drink-description'>description</div>
+                            <div class='option-drink-value' data-identifier='food-price'>R$ <span>49,79</span></div>
+                            <div class='check-drink-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-drink' id='drink-5' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/sprito.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-drink-name' data-identifier='food-title'>Drink 5</div>
+                            <div class='option-drink-description'>description</div>
+                            <div class='option-drink-value' data-identifier='food-price'>R$ <span>59,89</span></div>
+                            <div class='check-drink-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class='container-dessert-options' data-identifier='desserts'>
+                <div class='section-subtitle'>Por fim, sua sobremesa</div>
+                <div class='drink-options'>
+                    <div class='single-dessert' id='dessert-1' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/pudim.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dessert-name' data-identifier='food-title'>Dessert 1</div>
+                            <div class='option-dessert-description'>description</div>
+                            <div class='option-dessert-value' data-identifier='food-price'>R$ <span>19,24</span></div>
+                            <div class='check-dessert-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dessert' id='dessert-2' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/pudim.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dessert-name' data-identifier='food-title'>Dessert 2</div>
+                            <div class='option-dessert-description'>description</div>
+                            <div class='option-dessert-value' data-identifier='food-price'>R$ <span>29,36</span></div>
+                            <div class='check-dessert-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dessert' id='dessert-3' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/pudim.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dessert-name' data-identifier='food-title'>Dessert 3</div>
+                            <div class='option-dessert-description'>description</div>
+                            <div class='option-dessert-value' data-identifier='food-price'>R$ <span>39,48</span></div>
+                            <div class='check-dessert-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dessert' id='dessert-4' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/pudim.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dessert-name' data-identifier='food-title'>Dessert 4</div>
+                            <div class='option-dessert-description'>description</div>
+                            <div class='option-dessert-value' data-identifier='food-price'>R$ <span>49,72</span></div>
+                            <div class='check-dessert-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='single-dessert' id='dessert-5' data-identifier='food-option'>
+                        <div class='thumb'><img src='images/pudim.jfif' alt='Imagem não carregada.'></div>
+                        <div class='single-option-data'>
+                            <div class='option-dessert-name' data-identifier='food-title'>Dessert 5</div>
+                            <div class='option-dessert-description'>description</div>
+                            <div class='option-dessert-value' data-identifier='food-price'>R$ <span>59,96</span></div>
+                            <div class='check-dessert-option non-checked'>
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="modal-request" class="confirm-request" data-identifier='confirmation-dialog'>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class='modal-title-header'>Confirme seu pedido</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class='modal-row'>
+                            <div class='selected-option'></div>
+                            <div class='option-value'></div>
+                        </div>
+                        <div class='modal-row'>
+                            <div class='selected-option'></div>
+                            <div class='option-value'></div>
+                        </div>
+                        <div class='modal-row'>
+                            <div class='selected-option'></div>
+                            <div class='option-value'></div>
+                        </div>
+                        <div class='modal-row'>
+                            <div class='total-value'>TOTAL</div>
+                            <div class='option-value'>R$ <span></span></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class='container-buttons-modal'>
+                            <div class='modal-buttons' id='confirm'><p class='modal-options'>Tudo certo, pode pedir!</p></div>
+                            <div class='modal-buttons' id='cancel'><p class='modal-options'>Cancelar</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+
+
+        </div>
+        <footer class='footer'>
+            <a target='_blank'>
+            <div class='container-button button-inactive' id='finalize-request'>
+                <div class='button'>
+                    <p class='text-button'>Selecione os 3 itens para fechar o pedido</p>
+                </div>
+            </div></a>
+        </footer>
+        <script src='jquery-3.6.0.min.js'></script>
+        <script src='events.js'></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>
